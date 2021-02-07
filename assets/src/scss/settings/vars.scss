@@ -1,0 +1,121 @@
+﻿$color-black: #000000;
+$color-white: #ffffff;
+$color-red: #c91d27;
+$color-blue: #002048;
+$color-yellow-light: #ffcd00;
+$color-yellow: #faae32;
+$color-pink: #f05f7a;
+$color-purple: #6856cf;
+$color-green: #9dcf57;
+$color-teal: #1da8c9;
+$color-blue-copasa: #0055a4;
+
+//Gradientes
+$color-pink-1: #f05f7a;
+$color-pink-2: #ef5b7e;
+
+$color-purple-1: #bc0189;
+$color-purple-2: #900254;
+
+$color-green-1: #01bc7c;
+$color-green-2: #019773;
+
+$color-teal-1: #01bcb0;
+$color-teal-2: #02818e;
+
+$color-blue-1: #01abbf;
+$color-blue-2: #02638b ;
+
+$theme-colors: (
+  'black':	$color-black,
+  'white':	$color-white,
+  'red':	$color-red,
+  'yellow-light':	$color-yellow-light,
+  'yellow':	$color-yellow,
+  'pink':	$color-pink,
+  'purple':	$color-purple,  
+  'green':	$color-green,
+  "teal": $color-teal,                 
+  'blue': $color-blue,
+  'blue-copasa': $color-blue-copasa,
+);
+
+$gradient-colors: (
+  'blue':	('1': $color-blue-1, '2': $color-blue-2),
+  'pink':	('1': $color-pink-1, '2': $color-pink-2),
+  'purple':	('1': $color-purple-1, '2': $color-purple-2),
+  'green':	('1': $color-green-1, '2': $color-green-2),               
+  "teal": ('1': $color-teal-1, '2': $color-teal-2)
+);
+
+@mixin hover-focus {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+@mixin custom-bg-variant($parent, $value) {
+    #{$parent} {
+        background-color: $value !important;
+    }
+
+    a#{$parent},
+    button#{$parent} {
+    
+        @include hover-focus {
+            background-color: darken($value, 10%) !important;
+        }
+    }
+}
+
+@mixin custom-color-variant($parent, $value) {
+    #{$parent} {
+        color: $value;
+
+        h2,p,h3,h4{
+            color: $value;
+        }
+    }
+}
+
+@mixin custom-border-variant($parent, $value) {
+    #{$parent} {
+        border-bottom: 1px solid $value;
+    }
+}
+
+@mixin custom-gradient-variant($parent, $value) {
+    #{$parent} {
+        background: linear-gradient(45deg, map-get($value, '2'),  map-get($value, '1')) !important;
+
+        overflow: hidden;
+        position: relative;
+
+        &:before{
+            content: "";
+            height: 35rem;
+            width: 30rem;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #fff;
+            right: -20rem;
+            top: -20rem;
+
+            @include media-breakpoint-down(md) { 
+                height: 25rem;
+                width: 30rem;
+            }
+        }
+    }
+}
+
+@each $color, $value in $theme-colors {
+    @include custom-color-variant('.color-#{$color}',$value);
+    @include custom-bg-variant('.bg-#{$color}', $value);
+    @include custom-border-variant('.bb-#{$color}', $value);
+}
+
+@each $color, $value in $gradient-colors {
+    @include custom-gradient-variant('.gradient-#{$color}', $value);
+}

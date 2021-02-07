@@ -1,0 +1,128 @@
+.copasa{
+    &__mapa{
+        margin-left: -18rem;
+        max-width: 100%;
+
+        @include media-breakpoint-down(md) {
+            margin-left: 0;
+        }
+    }
+
+    &__img{
+        img{
+            max-width: 100%;
+        }
+
+        &--1{
+            width: 41rem;
+            position: absolute;
+            right: -13rem;
+            top: -41rem;
+        }
+
+        &--2{
+            width: 20rem;
+            position: absolute;
+            right: -10rem;
+            top: -13rem;
+            transform: scaleX(-1);
+        }
+
+        &--3{
+            width: 30rem;
+            position: absolute;
+            top: -6rem;
+            right: 3rem;
+        }
+
+        &--4{
+            width: 30rem;
+            position: absolute;
+            top: -9rem;
+            left: 28rem;
+            z-index: 2;
+        }
+    }
+    
+    &__dots{
+        max-width: 100%;
+        max-height: 45rem;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 4rem;
+            max-width: 200%;
+            width: 200%;
+        }
+    }
+
+    &__cta{
+        font-family: 'Roboto Bold';  
+        text-align: left;
+        font-size: 3rem;
+        text-transform: uppercase;
+        border-radius: 3rem;
+        background: linear-gradient(45deg, $color-green, $color-teal);
+        padding: 1rem 3rem 1rem 5rem;
+        color: $color-white !important;
+        transition: .5s;
+
+        &:hover{
+            color: $color-yellow !important;
+        }
+        
+        img{
+            height: 4rem;
+            width: 4rem;
+            margin-top: -.5rem;
+            margin-left: 1rem;
+        }
+
+        &--alt{
+            background: linear-gradient(45deg, $color-purple, $color-pink, $color-red);
+        }
+        
+    }
+
+    &__titulo{
+
+        color: $color-white;
+        line-height: 1;
+        font-family: 'Roboto Black';  
+        text-transform: uppercase;
+        font-size: 10rem;
+        font-weight: 900;
+        height: 7.5rem;
+        display: inline-block !important;
+        margin: auto;
+        width: auto;
+        max-width: 100%;
+    }
+
+    &__video{
+        position: relative;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        
+        iframe{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__testemunho{
+        background: $color-white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $color-pink;
+        text-align: center;
+        padding: 1rem .5rem;
+        border-radius: 3px;
+        margin: 0;
+    }
+    
+}

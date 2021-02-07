@@ -1,0 +1,209 @@
+.navigation
+{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 2rem 0;
+    transition: .5s;
+    z-index: 10;
+    background: $color-blue-copasa;
+
+    &__logos{
+        display: block;
+        min-width: 30rem;
+
+        &__logo{
+            position: relative;
+            transition: .5s;
+            
+            img{
+                max-height: 4rem;
+                float: left;
+                width: auto;
+                vertical-align: middle;
+                opacity: 1;  
+
+                &:last-child{
+                    margin-left: 1rem;
+                }
+            }
+
+            &:last-child{
+                position: absolute;
+                opacity: 0;
+                top: 0;
+            }
+        }
+    }
+
+    &__social{
+        display: inline-flex;
+        margin-right: 0;
+        margin-left: auto;
+        justify-content: flex-end;
+
+        a{
+            margin: auto .2rem;
+            vertical-align: middle;
+            transition: .5s;
+            padding: .6rem;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:last-child{
+                margin-right: 0 !important
+            }
+
+            svg{
+                fill: $color-white;
+                height: 2rem;
+                width:  2rem;
+                transition: .5s;
+            } 
+
+            &:hover{
+                svg{
+                    fill: $color-blue;
+                }
+            }
+        }
+    }
+
+    &__sections{
+        display: flex;
+        flex-direction: row;
+        transition: .5s;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-top: -3.5rem;
+        max-width: 70%;
+        
+        a{
+            display: inline-block;
+            margin: .5rem 0;
+            border-right: .2rem solid $color-white;
+
+                &:first-child{
+                    margin-left: -.5rem;
+                }
+
+                &:last-child{
+                    margin-right: 1.5rem;
+                    border: none !important;
+                }
+            
+            p{    
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                transition: .5s;
+                margin: 0;
+                margin: auto 1.5rem;
+                color: $color-white;
+            }
+
+            &:hover{
+                p{
+                    color: $color-blue;
+                }
+            }
+        }
+    }
+
+
+    &--fix-top{
+        
+        padding: 1.5rem 0 1rem;
+        background: $color-white;
+        border-bottom: .2rem solid $color-blue-copasa;
+
+        .navigation{
+            
+            &__logos{
+                &__logo{
+                    opacity: 0;
+
+                    &:last-child{
+                        opacity: 1;                        
+                    }
+                }
+            }
+
+            &__social{
+                a{
+                    svg{
+                        fill: $color-blue-copasa;
+                    }
+                }
+            }
+
+            &__sections{
+                a{
+                    border-right: .2rem solid $color-blue;
+                    p{                        
+                        color: $color-blue-copasa;
+                    }
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) { 
+        &--fix-top{
+            .navigation__sections{
+                max-width: 50%;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(md) { 
+        &__logo{
+            img{
+                max-height: 6rem;
+            }
+        }
+
+        &__social{
+            a{
+                svg{
+                    height: 2.5rem;
+                } 
+            }
+        }
+
+        &__sections{
+            max-width: 100%;
+            margin-top: 2rem;
+            a{
+                p{
+                    font-size: 12;
+                }
+            }
+        }
+
+        &--fix-top{
+            padding: 1.5rem 0;
+
+            .navigation__logo{
+                img{
+                    max-height: 4rem;
+                }
+            }
+
+            .navigation__sections{
+                max-width: 70%;
+    
+                a{
+
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}

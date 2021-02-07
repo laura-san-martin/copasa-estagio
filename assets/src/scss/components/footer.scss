@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    
+    .col-12{
+        display: flex;
+    }
+
+    p{
+        font-size: 2rem;
+        color: $color-blue-copasa;
+
+        @include media-breakpoint-down(lg) {
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.8rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        @include media-breakpoint-down(xs) {
+            font-size: 1.4rem;
+        }
+    }
+    
+
+    &__logo{
+        display: inline-block;
+        margin: auto;
+
+        img{
+            max-height: 6rem;
+            width: auto; 
+        }
+
+        &:first-child{
+            margin-right: 1.5rem;
+        }
+
+        &:last-child{
+            margin-left: 1.5rem;
+        }
+    }
+
+    &__endereco{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+
+        p{
+            color: $color-blue-copasa;
+            text-align: center;
+        }
+    }
+
+    @include media-breakpoint-down(sm) { 
+
+        .col-12{
+            display: block;
+            text-align: center;
+        }
+
+        &__endereco{
+            margin-bottom: 2rem;
+        }
+
+        &__logo{
+            img{
+                max-width: 25rem;
+                width: auto; 
+            }
+
+            &:last-of-type{
+                margin-left: auto;
+                margin-top: 3rem;
+            }
+        }
+    }
+}
