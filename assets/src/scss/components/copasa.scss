@@ -6,6 +6,10 @@
         @include media-breakpoint-down(md) {
             margin-left: 0;
         }
+
+        path{
+            cursor: pointer;
+        }
     }
 
     &__img{
