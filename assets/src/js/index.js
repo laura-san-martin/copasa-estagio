@@ -37,22 +37,22 @@ $("document").ready(function () {
     });
 
     $("#mapa-1-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNNT.pdf', '_blank');
     });
     $("#mapa-2-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNOE.pdf', '_blank');
     });
     $("#mapa-3-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNLE.pdf', '_blank');
     });
     $("#mapa-4-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNCE.pdf', '_blank');
     });
     $("#mapa-5-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNMT.pdf', '_blank');
     });
     $("#mapa-6-link").on('click', function (event) {
-        window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
+        window.open('http://www.copasa.com.br/estagios/PDFs/UNSL.pdf', '_blank');
     });
 });
 
