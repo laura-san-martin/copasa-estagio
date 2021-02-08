@@ -4,43 +4,93 @@
 	 viewBox="0 0 1795.4 1435.2" style="enable-background:new 0 0 1795.4 1435.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_2_);}
-	.st2{fill:url(#SVGID_3_);}
-	.st3{fill:url(#SVGID_4_);}
-	.st4{fill:url(#SVGID_5_);}
-	.st5{fill:url(#SVGID_6_);}
+	.st1{opacity:0.75;fill:#FFFFFF;}
+	.st2{fill:#02638B;}
+	.st3{font-family:'Roboto-Bold';}
+	.st4{font-size:60px;}
+	.st5{fill:#01ABBF;}
+	.st6{fill:url(#SVGID_2_);}
+	.st7{fill:url(#SVGID_3_);}
+	.st8{fill:url(#SVGID_4_);}
+	.st9{fill:url(#SVGID_5_);}
+	.st10{fill:url(#SVGID_6_);}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="572.1154" y1="1192.8722" x2="1533.8665" y2="1192.8722">
-	<stop  offset="1.263790e-03" style="stop-color:#00B4BE"/>
-	<stop  offset="0.9989" style="stop-color:#92C03F"/>
-</linearGradient>
-<polygon class="st0" points="1533.9,958.5 670.8,950.6 572.1,1235.8 733.6,1237.3 667.8,1427.2 1104.6,1435.2 1171.7,1241.3 
-	1435.2,1243.7 "/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="778.7232" y1="765.4567" x2="1403.4612" y2="765.4567">
-	<stop  offset="0" style="stop-color:#FAB8A6"/>
-	<stop  offset="1" style="stop-color:#EF5C72"/>
-</linearGradient>
-<polygon class="st1" points="1403.5,456.4 995.6,453.5 862.7,827.8 865.1,827.8 778.7,1074.5 1186.6,1077.4 1283.2,801.5 
-	1283,801.5 "/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="578.7938" y1="233.4096" x2="1540.5437" y2="233.4096">
-	<stop  offset="0" style="stop-color:#F9BF14"/>
-	<stop  offset="1" style="stop-color:#EB9B22"/>
-</linearGradient>
-<polygon class="st2" points="1372.6,180 1432.1,8 817.7,0 757.4,174.4 677.5,173.6 578.8,458.9 1441.8,466.8 1540.5,181.6 "/>
-<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="1061.8646" y1="612.9662" x2="1795.4052" y2="612.9662">
-	<stop  offset="0" style="stop-color:#9E7AB6"/>
-	<stop  offset="1" style="stop-color:#9C5C86"/>
-</linearGradient>
-<polygon class="st3" points="1534.2,990 1061.9,982 1323.1,236 1795.4,243.9 "/>
-<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="999.1087" y1="866.742" x2="1270.4647" y2="866.742">
-	<stop  offset="0" style="stop-color:#19B252"/>
-	<stop  offset="0.9966" style="stop-color:#C3D82E"/>
-</linearGradient>
-<polygon class="st4" points="1173.8,1006.2 999.1,1003.3 1095.7,727.3 1270.5,730.2 "/>
-<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="0" y1="730.1656" x2="1037.439" y2="730.1656">
-	<stop  offset="0" style="stop-color:#FCB715"/>
-	<stop  offset="1" style="stop-color:#EF5C72"/>
-</linearGradient>
-<polygon class="st5" points="636.2,454.1 559.2,676.5 98.7,672.3 0,957.5 172.8,959.1 157.4,1003.3 332.1,1006.2 348,960.7 
-	863.1,965.5 938.5,747.3 938.7,747.3 1037.4,462.1 "/>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="578.8" y1="232.4897" x2="1540.5" y2="232.4897">
+		<stop  offset="0" style="stop-color:#F9BF14"/>
+		<stop  offset="1" style="stop-color:#EB9B22"/>
+	</linearGradient>
+	<polygon class="st0" points="1323.1,236 1520.5,239.3 1540.5,181.6 1372.6,180 1432.1,8 817.7,0 757.4,174.4 677.5,173.6 
+		578.8,458.9 1242.9,465 	"/>
+	<g>
+		<path class="st1" d="M1360.7-157.5H763.1c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8h252.7l46,79.7l46-79.7h252.7
+			c7.6,0,13.8-6.2,13.8-13.8v-344.9C1374.5-151.3,1368.3-157.5,1360.7-157.5z"/>
+		<text transform="matrix(1 0 0 1 885.5035 -31.2725)"><tspan x="0" y="0" class="st2 st3 st4">Região Norte</tspan><tspan x="54.6" y="72" class="st2 st3 st4">25 vagas</tspan><tspan x="28" y="144" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
+<g>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="705.85" x2="1037.4" y2="705.85" gradientTransform="matrix(1 0 0 -1 0 1436)">
+		<stop  offset="0" style="stop-color:#FCB715"/>
+		<stop  offset="1" style="stop-color:#EF5C72"/>
+	</linearGradient>
+	<polygon class="st6" points="636.2,454.1 559.2,676.5 98.7,672.3 0,957.5 172.8,959.1 157.4,1003.3 332.1,1006.2 348,960.7 
+		863.1,965.5 938.5,747.3 938.7,747.3 1037.4,462.1 	"/>
+	<g>
+		<path class="st1" d="M762.7,353.6H165.2c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8h252.7l46,79.7l46-79.7h252.7
+			c7.6,0,13.8-6.2,13.8-13.8V367.4C776.5,359.8,770.3,353.6,762.7,353.6z"/>
+		<text transform="matrix(1 0 0 1 224.1712 479.7777)"><tspan x="0" y="0" class="st2 st3 st4">Triângulo Mineiro</tspan><tspan x="118" y="72" class="st2 st3 st4">22 vagas</tspan><tspan x="91.4" y="144" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
+<g>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1150.7593" y1="613" x2="1795.4" y2="613">
+		<stop  offset="0" style="stop-color:#9E7AB6"/>
+		<stop  offset="1" style="stop-color:#9C5C86"/>
+	</linearGradient>
+	<polygon class="st7" points="1323.1,236 1150.8,728.2 1270.5,730.2 1181.6,984 1534.2,990 1795.4,243.9 	"/>
+	<g>
+		<path class="st1" d="M1832.7,84.8h-597.5c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8h252.7l46,79.7l46-79.7h252.7
+			c7.6,0,13.8-6.2,13.8-13.8V98.6C1846.5,91,1840.3,84.8,1832.7,84.8z"/>
+		<text transform="matrix(1 0 0 1 1372.4303 211.0304)"><tspan x="0" y="0" class="st2 st3 st4">Vale do Aço</tspan><tspan x="39.7" y="72" class="st2 st3 st4">29 vagas</tspan><tspan x="13.1" y="144" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
+<g>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="778.7" y1="765.45" x2="1246.3218" y2="765.45">
+		<stop  offset="0" style="stop-color:#FAB8A6"/>
+		<stop  offset="1" style="stop-color:#EF5C72"/>
+	</linearGradient>
+	<polygon class="st8" points="1173.8,1006.2 999.1,1003.3 1095.7,727.3 1150.8,728.2 1246.3,455.3 995.6,453.5 992.9,461.2 
+		1037.4,462.1 938.7,747.3 938.5,747.3 863.1,965.5 817,965.1 778.7,1074.5 1186.6,1077.4 1219.1,984.7 1181.6,984 	"/>
+	<g>
+		<path class="st1" d="M1336.2,240.7H738.6c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8h252.7l46,79.7l46-79.7h252.7
+			c7.6,0,13.8-6.2,13.8-13.8V254.5C1350,246.9,1343.8,240.7,1336.2,240.7z"/>
+		<text transform="matrix(1 0 0 1 838.6793 366.9415)"><tspan x="0" y="0" class="st2 st3 st4">Região Central</tspan><tspan x="76.9" y="72" class="st2 st3 st4">13 vagas</tspan><tspan x="50.4" y="144" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
+<g>
+	
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="999.1" y1="569.25" x2="1270.5" y2="569.25" gradientTransform="matrix(1 0 0 -1 0 1436)">
+		<stop  offset="0" style="stop-color:#19B252"/>
+		<stop  offset="0.9966" style="stop-color:#C3D82E"/>
+	</linearGradient>
+	<polygon class="st9" points="1173.8,1006.2 999.1,1003.3 1095.7,727.3 1270.5,730.2 	"/>
+	<g>
+		<path class="st1" d="M1462.8,466.8H825.3c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8H1098l46,79.7l46-79.7h272.7
+			c7.6,0,13.8-6.2,13.8-13.8V480.6C1476.6,473,1470.4,466.8,1462.8,466.8z"/>
+		<text transform="matrix(1 0 0 1 851.2346 573.0222)"><tspan x="0" y="0" class="st2 st3 st4">Região Metropolitana </tspan><tspan x="61.5" y="72" class="st2 st3 st4">de Belo horizonte</tspan><tspan x="176.1" y="144" class="st2 st3 st4">35 vagas</tspan><tspan x="149.5" y="216" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
+<g>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="572.1" y1="1192.8999" x2="1533.9" y2="1192.8999">
+		<stop  offset="1.263790e-03" style="stop-color:#00B4BE"/>
+		<stop  offset="0.9989" style="stop-color:#92C03F"/>
+	</linearGradient>
+	<polygon class="st10" points="1229.2,955.7 1186.6,1077.4 778.7,1074.5 821.6,952 670.8,950.6 572.1,1235.8 733.6,1237.3 
+		667.8,1427.2 1104.6,1435.2 1171.7,1241.3 1435.2,1243.7 1533.9,958.5 	"/>
+	<g>
+		<path class="st1" d="M1316.6,814.6H719.1c-7.6,0-13.8,6.2-13.8,13.8v344.9c0,7.6,6.2,13.8,13.8,13.8h252.7l46,79.7l46-79.7h252.7
+			c7.6,0,13.8-6.2,13.8-13.8V828.4C1330.4,820.8,1324.2,814.6,1316.6,814.6z"/>
+		<text transform="matrix(1 0 0 1 873.7037 940.828)"><tspan x="0" y="0" class="st2 st3 st4">Região Sul</tspan><tspan x="22.4" y="72" class="st2 st3 st4">35 vagas</tspan><tspan x="-4.2" y="144" class="st5 st3 st4">Saiba mais</tspan></text>
+	</g>
+</g>
 </svg>

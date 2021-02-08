@@ -29,22 +29,29 @@ $("document").ready(function () {
         }
     });
 
-    $("#minas-1").on('click', function (event) {
+    $("#mapa-1, #mapa-2, #mapa-3, #mapa-4, #mapa-5, #mapa-6").hover(function () {
+        $("#" + this.id + "-texto").fadeIn("slow");
+    },
+        function () {
+        $("#" + this.id + "-texto").fadeOut();
+    });
+
+    $("#mapa-1-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
-    $("#minas-2").on('click', function (event) {
+    $("#mapa-2-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
-    $("#minas-3").on('click', function (event) {
+    $("#mapa-3-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
-    $("#minas-4").on('click', function (event) {
+    $("#mapa-4-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
-    $("#minas-5").on('click', function (event) {
+    $("#mapa-5-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
-    $("#minas-6").on('click', function (event) {
+    $("#mapa-6-link").on('click', function (event) {
         window.open('https://www.chances.com.br/carreiraielfiemg/programa/programadeestagiocopasa', '_blank');
     });
 });
